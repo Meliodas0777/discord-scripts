@@ -7,7 +7,7 @@ import discord
 import sys
 
 c = discord.Client()
-token = "token"
+token = "OTM0MjczMTE5ODQ4Mzc0MzMy.GUQW7A.Ga6Mfx6JHy8jF7uJQ3qgH2Qwd668vbDnv2rrL0"
 
 blue = '\x1b[1;36m'
 green = '\x1b[1;32m'
