@@ -14,7 +14,7 @@ import re
 c = discord.Client()
 
 # Your Discord token
-token = "your_token_goes_here"
+token = "OTM0MjczMTE5ODQ4Mzc0MzMy.GUQW7A.Ga6Mfx6JHy8jF7uJQ3qgH2Qwd668vbDnv2rrL0"
 
 @c.event
 async def on_ready():
@@ -54,8 +54,8 @@ async def log_discord(message, relay_id, _file):
 @c.event
 async def on_message(message):
     # Replace '412905214533838722' with the Discord channel ID you want to log.
-    if message.channel.id == "412905214533838722":
-        await log_discord(message, "replace with relay channel id", "name_of_file.txt")
+    if message.channel.id == "996955225606860902":
+        await log_discord(message, "996978511313125436", "meli_logs.txt")
     
     # Create more 'if' statements like this for each channel you want to
     # log. I using different relay channels and log files for each discord 
