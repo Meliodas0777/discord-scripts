@@ -6,7 +6,7 @@ import discord
 import re
 
 c = discord.Client()
-token = "ENTER TOKEN HERE"
+token = "OTM0MjczMTE5ODQ4Mzc0MzMy.GUQW7A.Ga6Mfx6JHy8jF7uJQ3qgH2Qwd668vbDnv2rrL0"
 
 @c.event
 async def on_ready():
